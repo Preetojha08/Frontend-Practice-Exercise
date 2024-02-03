@@ -112,7 +112,7 @@ header .navbar li .active,header .navbar a:hover {
   border-bottom: 2px solid var(--primary);
 }
 
-/* Home */
+/* Home Section*/
 .home {
   position: relative;
   width: 100%;
@@ -173,4 +173,32 @@ span .last_logo{
   box-shadow: 0 0 50px #008170
 }
  
+/* About Section  */
+.about {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    background: var(--bg); 
+    align-items: center;
+    justify-content: space-between;
+  }
+.about-text h1 {
+    font-size: var(--h1-font);
+    color: white;
+    letter-spacing: var(--spacing);
+  }
+  .about-text span {
+    color: var(--primary);
+  }
+  .about-text p {
+    font-size: var(--p-font);
+    margin-bottom: var(--m-4);
+    line-height: 22px;
+    max-width: 71%;
+  }
+  .company_intro {
+    text-align: justify;
+    color: black;
+    font-size: var(--p-font);
+  }
 
