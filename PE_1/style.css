@@ -261,3 +261,12 @@ span .last_logo{
     transform: scale(1.1);
     background: linear-gradient(#008170,#01a29c);
   }
+
+  /* Footer */
+  .copyright {
+    padding: 20px;
+    text-align: center;
+    background: var(--primary);
+  }
+  
+  
