@@ -173,6 +173,8 @@ span .last_logo{
   box-shadow: 0 0 50px #008170
 }
  
+
+
 /* About Section  */
 .about {
     width: 100%;
@@ -202,3 +204,63 @@ span .last_logo{
     font-size: var(--p-font);
   }
 
+  /* Project and Certificates */
+  .portfolio-content {
+    display: flex;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .c-box{
+ 
+    width: 480px;
+    height: 395px;
+    background: #2c3e50;
+    /* background: #000;
+    border: 3px solid var(--primary); */
+    margin: 20px;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: left;
+  }
+  .c-box-content{
+    float: inline-start;
+    margin-left: 10px;
+  }
+  
+  .c-img {
+    width: 100px;
+    float: left;
+    height: 100px;
+    padding: 15px;
+  }
+  .c-img img {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+    border-radius: 25%;
+  }
+  
+  .c-box h2{
+    font-size: var(--h2-font);
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  .c-box p{
+    font-size: var(--p-font);
+    font-weight: 400;
+    text-align: justify;
+  }
+
+  .c-box-content p span {
+    color: var(--primary);
+  }
+
+  .c-box:hover, .p-box:hover {
+    transform: scale(1.1);
+    background: linear-gradient(#008170,#01a29c);
+  }
